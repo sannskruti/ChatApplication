@@ -1,0 +1,140 @@
+#app {
+  display: flex;
+  flex-direction: row;
+  background-color: #d0f0c0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 94vh;
+  margin: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  margin: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(20, 35, 20);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat__area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.chats {
+  list-style-type: none;
+  margin-bottom: 0.5rem;
+  width: 152vh;
+  height: 67vh;
+  margin-top: 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chat {
+  padding: 0.5rem;
+  margin-left: 0;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 25rem;
+  overflow-wrap: break-word;
+}
+
+.controls {
+  background-color: rgb(255, 255, 255);
+  margin-left: 2rem;
+  height: 33rem;
+  width: 14rem;
+  padding-bottom: 1rem;
+}
+
+.add__form {
+  margin-left: 2.5rem;
+}
+#send-button {
+  height: 2.5rem;
+  width: 4rem;
+  border: 0.2rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: #6abe6b;
+  color: white;
+  cursor: pointer;
+}
+.add__message {
+  padding: 0.6rem;
+  width: 55vh;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.controls__refresh {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  height: 2.5rem;
+  width: 4.5rem;
+  border: 0.2rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: #6abe6b;
+  color: white;
+  cursor: pointer;
+}
+.controls__logout {
+  margin-top: 1rem;
+  height: 2.5rem;
+  width: 4.5rem;
+  border: 0.2rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: #6abe6b;
+  color: white;
+  cursor: pointer;
+}
+.login__waiting {
+  margin-left: 2rem;
+}
+.chats__waiting {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.login-caption {
+  margin-left: 2rem;
+}
+.active_user {
+  color: rgb(67, 96, 67);
+}
+.status {
+  margin-left: 2rem;
+}
+
+.user_list {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.login__form {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 1rem;
+}
+.login__button {
+  margin-left: 0.4rem;
+  padding: 1rem;
+  border: 0.2rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: #6abe6b;
+  color: white;
+  cursor: pointer;
+}
+
+.login__username {
+  padding: 1rem;
+  width: 10rem;
+  border: 0.2rem solid transparent;
+  border-radius: 0.5rem;
+}
